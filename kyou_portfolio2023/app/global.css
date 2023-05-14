@@ -6,10 +6,10 @@
 
 @layer base {
 	h1 {
-		@apply text-yellow text-4xl sm:text-6xl;
+		@apply text-center text-4xl sm:text-4xl;
 	}
 	h2 {
-		@apply text-2xl;
+		@apply text-lg;
 	}
 	h3 {
 		@apply text-lg;
@@ -41,7 +41,7 @@ section {
 }
 
 main h2 {
-	@apply uppercase text-black;
+	@apply uppercase text-2xl text-black;
 }
 
 .btn {

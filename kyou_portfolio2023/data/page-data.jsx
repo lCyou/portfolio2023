@@ -7,6 +7,7 @@ export const personalData = {
 		"Faculty of Science and Technology Informatics Department of Media in Kindai University(2021-)",
 	],
 	contactLinks: [
+		"Osaka, Japan",
 		"mailto:emailto:info.lcyouy@gmail.com",
 		"https://twitter.com/lCyo_u",
 		"https://www.linkedin.com/in/kaoru-yamakawa-965088271/",
