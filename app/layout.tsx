@@ -19,7 +19,7 @@ export default function RootLayout({
 
 			<body className='bg-black flex flex-col sm:flex-row'>
 				<Sidebar data={personalData} />
-				<main className='grow-full justify-center p-8 sm:p-16 w-full sm:basis-3/5  ml-auto mr-8'>
+				<main className='grow-full justify-center p-8 sm:p-16 w-full sm:basis-2/3  ml-auto mr-8'>
 					{children}
 				</main>
 			</body>
