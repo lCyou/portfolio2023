@@ -1,10 +1,10 @@
 export const personalData = {
 	name: "Kaoru Yamakawa",
 	role: ["Student",
-        "(wannabe engineer)"
+        "(engineer)"
     ],
 	education: [
-		"Faculty of Science and Technology Informatics Department of Media in Kindai University(2021-)",
+		"Faculty of Science and Technology Informatics Department of Media in Kindai University(2021- )",
 	],
 	contactLinks: [
 		"Osaka, Japan",
@@ -25,22 +25,36 @@ export const aboutMe = {
 };
 
 export const skills = {//icons from https://devicon.dev/
-	front: [
-		{ name: "next", icon: <i className="devicon-nextjs-original-wordmark colored"></i>},
+	title: "skills",
+	skills: [
+		{ name: "next", icon: <i class="devicon-nextjs-plain"></i>},
 		{ name: "react", icon: <i className="devicon-react-original colored"></i>},
 		{ name: "css",icon: <i className="devicon-css3-plain colored"></i>},
+		{ name: "html",icon: <i className="devicon-html5-plain colored"></i>},
 		{ name: "tailwind",icon: <i className="devicon-tailwindcss-plain colored"></i>},
 		{ name: "js",icon: <i className="devicon-javascript-plain colored"></i>},
-		{ name: "ts",icon: <i className="devicon-typescript-plain colored"></i>}	
+		{ name: "ts",icon: <i className="devicon-typescript-plain colored"></i>},
+		{ name: "python",icon: <i className="devicon-python-plain colored"></i>},
+		{ name: "java",icon: <i class="devicon-java-plain"></i>},
+		{ name: "c",icon: <i className="devicon-c-plain colored"></i>},
+		{ name: "c++",icon: <i className="devicon-cplusplus-plain colored"></i>},
+		{ name: "c#",icon: <i className="devicon-csharp-plain colored"></i>},
+		{ name: "sqlite",icon: <i class="devicon-sqlite-plain"></i>},
+		{ name: "git",icon: <i className="devicon-git-plain colored"></i>},
+		{ name: "github",icon: <i class="devicon-github-original"></i>},
+		{ name: "docker",icon: <i className="devicon-docker-plain colored"></i>},
+		{ name: "heroku",icon: <i className="devicon-heroku-original colored"></i>},
+		{ name: "node",icon: <i className="devicon-nodejs-plain colored"></i>},
+		{ name: "express",icon: <i class="devicon-express-original"></i>},
+		{ name: "flask",icon: <i class="devicon-flask-original"></i>},
+		{ name: "unity",icon: <i class="devicon-unity-original"></i>},
+		{ name: "IFTTT", icon: <i class="devicon-ifttt-plain"></i>},
+		{ name: "nginx", icon: <i class="devicon-nginx-original colored"></i>},
+		{ name: "FastAPI", icon: <i class="devicon-fastapi-plain"></i>},
+		{ name: "flutter", icon: <i class="devicon-flutter-plain colored"></i>},
+
 	],
-	back: [
-		{ name: "",icon: "👂🏼"},
-		{ name: "",icon: "👂🏼"},
-		{ name: "",icon: "👂🏼"},
-		{ name: "",icon: "👂🏼"},
-		{ name: "",icon: "👂🏼"},
-		{ name: "",icon: "👂🏼"},
-	],
+	
 };
 
 export const workData = {
@@ -51,7 +65,7 @@ export const workData = {
 			status: "school",
 			date: "2021 - Present",
 			event: "大学入学",
-			role: "理工学部情報化学科 に入学",
+			role: "理工学部情報学科 に入学",
 		},
 		{
 			id: 2,
@@ -72,17 +86,24 @@ export const workData = {
 			status: "activity",
 			date: "2022.2",
 			event: "KC3Hack 2022",
-			role: "Webアプリ「REsaVIEW」を開発、オーディエンス賞3位",
+			role: "フロントエンド担当 / オーディエンス賞3位",
 		},
 		{
 			id: 5,
 			status: "activity",
 			date: "2022.10 - 2023.3",
-			event: "CODEGYM academy",
-			role: "CS50修了、Webの知識を学んだ",
+			event: "CODEGYM academy2022秋",
+			role: "CS50修了 / Webの知識を学んだ",
 		},
 		{
 			id: 6,
+			status: "activity",
+			date: "2023.2",
+			event: "KC3Hack 2023",
+			role: "バックエンド担当 / さくらインターネット賞受賞",
+		},
+		{
+			id: 7,
 			status: "work",
 			date: "2023.5",
 			event: "GMO DecSecOpsthon2023",
