@@ -1,12 +1,5 @@
 import React from "react";
 
-function SkillCard({ skill }) {
-    return (
-        <div className="">
-            <div className="">{skill.icon}</div>
-        </div>
-    )
-}
 
 const MySkill = ({ data }) => {
     const {front, back} = data;
@@ -17,8 +10,8 @@ const MySkill = ({ data }) => {
 			<h2 className='mb-6 text-white'> Skills</h2>
             </div>
 			<div className='flex my-5 gap-6'>
-				{front.map((skill, id) => (
-                    <div className="">{skill.icon}</div>
+				{front.map((skill, name) => (
+                    <div key={name} className="">{skill.icon}</div>
                 ))}
 			</div>
 		</section>
