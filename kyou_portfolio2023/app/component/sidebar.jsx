@@ -8,7 +8,7 @@ const Sidebar = ({ data }) => {
 	const { name, role, education, contactLinks } = data;
 
 	return (
-		<div className='bg-black flex flex-col  content-between w-full h-auto sm:h-screen sm:justify-around sm:w-1/3 sm:fixed'>
+		<div className=' flex flex-col  content-between w-full h-auto sm:h-screen sm:justify-around sm:w-1/3 sm:fixed'>
 			<div className='text-white flex flex-col p-10 items-center'>
 				<Image
 					priority
