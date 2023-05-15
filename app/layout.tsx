@@ -11,7 +11,7 @@ export default function RootLayout({
 	return (
 		<html>
 			<head>
-				<title>lCyou's resume 2023ss</title>
+				<title>lCyou resume 2023ss</title>
 				<link rel='icon' href='/icon.svg' />
 				<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
           
