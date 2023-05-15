@@ -1,18 +1,20 @@
 import React, { useId } from "react";
 import Skills from "./skills";
 
-const AboutMe = ({ data, skills }) => {
+const AboutMe = ({ data}) => {
 	const { title, body } = data;
 	const id = useId();
 	return (
 		<section>
-			<h2 className='mb-8'> {title}</h2>
+			<div className='flex my-4'>
+			<div className="bg-grey w-2 h-9 mr-6"></div>
+			<h2 className='text-white mb-5'> {title}</h2>
+			</div>
 			{body?.map((el, i) => (
-				<p key={`${id}_${i}`} className='mb-6'>
+				<p key={`${id}_${i}`} className='mt-3 mb-3 ml-9'>
 					{el}
 				</p>
 			))}
-			<Skills data={skills} />
 		</section>
 	);
 };

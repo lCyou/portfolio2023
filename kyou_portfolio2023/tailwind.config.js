@@ -10,7 +10,7 @@ module.exports = {
 			black: "#191A19",
 			yellow: "#FFF734",
 			green: "#68F590",
-			grey: "#F3F3F3",
+			grey: "#808080",
 			"grey-light": "#FAFAFA",
 			"green-light": "#d2eff1",
 			white: "#fff",
@@ -38,10 +38,10 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       screens: {
-				sm: "640px",
+				sm: "780px",
 				// => @media (min-width: 640px) { ... }
 
-				md: "768px",
+				md: "800px",
 				// => @media (min-width: 768px) { ... }
 
 				lg: "1024px",
