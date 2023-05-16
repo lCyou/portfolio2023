@@ -7,7 +7,7 @@ const AboutMe = ({ data}) => {
 	return (
 		<section>
 			<div className='flex my-4'>
-			<div className="bg-grey w-2 h-9 mr-6"></div>
+			<div className="bg-midnight-blue w-2 h-9 mr-6"></div>
 			<h2 className='text-black mb-5'> {title}</h2>
 			</div>
 			{body?.map((el, i) => (
