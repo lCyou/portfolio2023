@@ -8,7 +8,7 @@ const Experience = ({ data }) => {
 		<section>
             <div className='flex my-4'>
             <div className="bg-grey w-2 h-9 mr-6"></div>
-			<h2 className='text-white mb-6'> {title}</h2>
+			<h2 className='text-black mb-6'> {title}</h2>
             </div>
 			<div className='flex flex-col gap-6'>
 				{reverse.map(({ date, event, role, id, status}) => (

@@ -8,7 +8,7 @@ const AboutMe = ({ data}) => {
 		<section>
 			<div className='flex my-4'>
 			<div className="bg-grey w-2 h-9 mr-6"></div>
-			<h2 className='text-white mb-5'> {title}</h2>
+			<h2 className='text-black mb-5'> {title}</h2>
 			</div>
 			{body?.map((el, i) => (
 				<p key={`${id}_${i}`} className='mt-3 mb-3 ml-9'>

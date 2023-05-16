@@ -11,6 +11,7 @@ module.exports = {
 			yellow: "#FFF734",
 			green: "#68F590",
 			grey: "#808080",
+			weate: "#faf0e6",
 			"grey-light": "#FAFAFA",
 			"green-light": "#d2eff1",
 			white: "#fff",
