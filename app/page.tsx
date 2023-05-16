@@ -8,7 +8,7 @@ import ProfessionalExperience from "./component/professional-experience";
 const page = () => {
 	return (
 		<div>
-			<div className="text-white ">
+			<div className="text-black ">
 			<AboutMe data={aboutMe} />
 			<MySkill data={skills}/>
 			<Experience data={workData} />
