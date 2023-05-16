@@ -25,11 +25,6 @@ const MySkill = ({ data }) => {
             </div>
             <div className="ml-7">
             {content}
-			{/* <div className='flex my-5 gap-6'>
-				{skills.map((skill, name) => (
-                    <div key={name} className="">{skill.icon}</div>
-                ))}
-			</div> */}
             </div>
 		</section>
 	);
