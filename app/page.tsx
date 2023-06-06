@@ -1,9 +1,8 @@
 import React from "react";
-import { aboutMe, skills, professionalData, workData } from "../data/page-data";
+import { aboutMe, skills, workData } from "../data/page-data";
 import AboutMe from "./component/about-me";
 import MySkill from "./component/my-skill";
 import Experience from "./component/experience";
-import ProfessionalExperience from "./component/professional-experience";
 
 const page = () => {
 	return (
