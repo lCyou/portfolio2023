@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React from "react";
 
-import { Envelope, Twitter, Linkedin, Github, Location} from "./icons/";
+import { Envelope, Twitter, Linkedin, Github, Location, Zenn} from "./icons/";
 
 const Sidebar = ({ data }) => {
 	const { name, role, education, contactLinks } = data;
@@ -57,6 +57,13 @@ const Sidebar = ({ data }) => {
 							aria-label={"github link"}
 						>
 							<Github />
+						</a>
+						<a
+							className='icons-article'
+							href={contactLinks?.[5]}
+							aria-label={"zenn link"}
+						>
+							<Zenn />
 						</a>
 						
 					</div>

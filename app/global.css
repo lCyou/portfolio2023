@@ -36,6 +36,10 @@
 	@apply text-2xl m-2;
 }
 
+.icons-article {
+	@apply m-2;
+}
+
 section {
 	@apply mb-10;
 }

@@ -1,7 +1,4 @@
 import "./global.css";
-// import { useCallback } from "react";
-// import type { Container, Engine } from "tsparticles-engine";
-// import { tsParticles } from "tsparticles-engine";
 
 import Head from 'next/head'
 import BackGround from "./background";
