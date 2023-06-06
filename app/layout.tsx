@@ -1,8 +1,9 @@
 import "./global.css";
-import { useCallback } from "react";
-import type { Container, Engine } from "tsparticles-engine";
-import { tsParticles } from "tsparticles-engine";
+// import { useCallback } from "react";
+// import type { Container, Engine } from "tsparticles-engine";
+// import { tsParticles } from "tsparticles-engine";
 
+import Head from 'next/head'
 import BackGround from "./background";
 import Sidebar from "./component/sidebar";
 import { personalData } from "../data/page-data";
@@ -18,7 +19,6 @@ export default function RootLayout({
 				<title>lCyou resume 2023ss</title>
 				<link rel='icon' href='/icon.svg' />
 				<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
-          
 			</head> 
 
 			<body className="bg-weate">

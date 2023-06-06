@@ -49,8 +49,20 @@ main h2 {
 }
 
 .skill {
-	@apply text-3xl py-2 px-4 w-fit rounded-md;
+	@apply text-3xl w-fit rounded-md;
 }
+
+.sbtn{
+	@apply py-2 px-4 w-fit rounded-md;
+}
+
+.sbtn:focus {
+	@apply bg-white text-dark-yellow transform duration-1000 scale-125;
+}
+
+/* .sbtn:hover {
+	@apply bg-white text-dark-yellow  transform duration-1000 scale-125;
+} */
 
 #tsparticles {
     position: fixed;
