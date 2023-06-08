@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React from "react";
 
-import { Envelope, Twitter, Linkedin, Github, Location, Zenn} from "./icons/";
+import { Envelope, Twitter, Linkedin, Github, Location, Zenn } from "./icons/";
 
 const Sidebar = ({ data }) => {
 	const { name, role, education, contactLinks } = data;

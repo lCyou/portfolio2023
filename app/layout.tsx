@@ -11,7 +11,7 @@ export default function RootLayout({
 	children: React.ReactNode;
 }) {
 	return (
-		<html>
+		<html className="scroll-smooth">
 			<head>
 				<title>lCyou resume 2023ss</title>
 				<link rel='icon' href='/icon.svg' />
