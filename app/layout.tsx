@@ -4,6 +4,7 @@ import Head from 'next/head'
 import BackGround from "./background";
 import Sidebar from "./component/sidebar";
 import { personalData } from "../data/page-data";
+import JumpButton from "./component/jump-button";
 
 export default function RootLayout({
 	children,
@@ -22,6 +23,7 @@ export default function RootLayout({
 				<BackGround />
 				<div className = "flex flex-col sm:flex-row">
 					<Sidebar data={personalData} />
+					<JumpButton />
 					<main className='grow-full justify-center p-8 sm:p-16 w-full sm:basis-2/3  ml-auto mr-8'>
 						{children}
 					</main>

@@ -1,6 +1,6 @@
-import React from "react";
+import React,{ memo } from "react";
 
-const Experience = ({ data }) => {
+const Experience = ({data}) => {
 	const { title, experiences } = data;
     const reverse = experiences.reverse();
 
@@ -35,5 +35,6 @@ const Experience = ({ data }) => {
 		</section>
 	);
 };
+
 
 export default Experience;

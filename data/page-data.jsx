@@ -207,7 +207,7 @@ export const workData = {
       id: 7,
       status: "work",
       date: "2023.5",
-      event: "GMO DecSecOpsthon2023",
+      event: "GMO DevSecOpsthon2023",
       role: "インターネットインフラについて勉強",
     },
   ],

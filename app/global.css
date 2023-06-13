@@ -64,6 +64,10 @@ main h2 {
 	@apply bg-white text-dark-yellow transform duration-1000 scale-125;
 }
 
+.jump-button{
+	@apply fixed z-50 bottom-10 right-10 py-2 px-2 bg-dark-yellow rounded-full
+}
+
 /* .sbtn:hover {
 	@apply bg-white text-dark-yellow  transform duration-1000 scale-125;
 } */
