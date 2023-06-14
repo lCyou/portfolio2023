@@ -21,4 +21,6 @@ const page = memo(() => {
   );
 });
 
+page.displayName = 'pageComponent';
+
 export default page;
