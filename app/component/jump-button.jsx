@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { Allow } from "./icons/";
 
 const JumpButton = () => {
-  const [isActive, setIsActive] = useState(true);
+  const [isActive, setIsActive] = useState(false);
 
   const clickJump = () => {
     if (isActive == false) {
