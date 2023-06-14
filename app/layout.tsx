@@ -4,6 +4,7 @@ import Head from 'next/head'
 import BackGround from "./background";
 import Sidebar from "./component/sidebar";
 import { personalData } from "../data/page-data";
+import JumpButton from "./component/jump-button";
 
 export default function RootLayout({
 	children,
@@ -11,7 +12,7 @@ export default function RootLayout({
 	children: React.ReactNode;
 }) {
 	return (
-		<html>
+		<html className="scroll-smooth">
 			<head>
 				<title>lCyou resume 2023ss</title>
 				<link rel='icon' href='/icon.svg' />
@@ -25,6 +26,7 @@ export default function RootLayout({
 					<main className='grow-full justify-center p-8 sm:p-16 w-full sm:basis-2/3  ml-auto mr-8'>
 						{children}
 					</main>
+					<JumpButton />
 				</div>
 			</body>
 		</html>
