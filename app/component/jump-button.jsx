@@ -1,8 +1,9 @@
 "use client";
 import React, { useState } from "react";
+import { Allow } from "./icons/";
 
 const JumpButton = () => {
-  const [isActive, setIsActive] = useState(false);
+  const [isActive, setIsActive] = useState(true);
 
   const clickJump = () => {
     if (isActive == false) {
@@ -14,20 +15,31 @@ const JumpButton = () => {
   };
 
   return (
-    <div>
-      <div className="fixed z-10 bottom-10 right-10 py-2 px-2 bg-dark-yellow rounded-full cursor-pointer">
-        <button onClick={clickJump}>Jump</button>
-      </div>
-      <div className={`${isActive ? "shown" : ""}`}>
-        <button className="jump-button">
-            <a href="#aboutMe">About</a>
-        </button>
-        <button className="jump-button">
-            <a href="#skill">Skills</a>
-        </button>
-        <button className="jump-button">
-            <a href="#experience">Experience</a>
-        </button>
+    <div className="text-white">
+      <button
+        className="fixed z-10 top-5 right-5 px-2 py-2 place-content-center bg-dark-yellow rounded-full"
+        onClick={clickJump}
+      >
+        <Allow
+          className={`transform duration-500 ${isActive ? "" : "rotate-180"}`}
+        />
+      </button>
+      <div className={`${isActive ? " visible" : " invisible"}`}>
+        <a href="#aboutMe">
+          <button className="fixed jump-button top-20 right-10 h-12 w-32">
+            About
+          </button>
+        </a>
+        <a href="#skill">
+          <button className="fixed jump-button top-36 right-10 h-12 w-32">
+            Skills
+          </button>
+        </a>
+        <a href="#experience">
+          <button className=" fixed jump-button top-52 right-10 h-12 w-32">
+            Experience
+          </button>
+        </a>
       </div>
     </div>
   );
