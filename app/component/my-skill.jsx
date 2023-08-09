@@ -20,8 +20,8 @@ const MySkill = ({ data }) => {
 	return (
 		<section>
             <div className='flex my-4'>
-                <div className="bg-grey w-2 h-9 mr-6"></div>
-			    <h2 className='mb-6 text-white'>{title}</h2>
+                <div className="bg-midnight-blue w-2 h-9 mr-6"></div>
+			    <h2 className='mb-6 text-black'>{title}</h2>
             </div>
             <div className="ml-7">
             {content}
