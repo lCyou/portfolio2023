@@ -16,7 +16,7 @@ const Sidebar = ({ data }) => {
 					height={300}
 					className='rounded-full h-full mb-5 mt-5'
 					src='/images/myicon.jpg'
-					alt='myicon.jpg'
+					// alt='myicon.jpg'
 					aria-label='myicon.jpg'
 				/>
 				<h1 className='text-dark-yellow mb-0'>{name}</h1>
