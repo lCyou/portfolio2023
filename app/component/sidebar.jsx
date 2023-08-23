@@ -2,13 +2,13 @@
 import Image from "next/image";
 import React from "react";
 
-import { Envelope, Twitter, Linkedin, Github, Location} from "./icons/";
+import { Envelope, Twitter, Linkedin, Github, Location, Zenn } from "./icons/";
 
 const Sidebar = ({ data }) => {
 	const { name, role, education, contactLinks } = data;
 
 	return (
-		<div className='bg-midnight-blue flex flex-col  content-between w-full h-auto rounded-br-3xl rounded-bl-3xl sm:h-screen sm:justify-around sm:w-1/3 sm:fixed sm:rounded-r-3xl sm:rounded-bl-none'>
+		<div className='z-50 bg-midnight-blue flex flex-col  content-between w-full h-auto rounded-br-3xl rounded-bl-3xl sm:h-screen sm:justify-around sm:w-1/3 sm:fixed sm:rounded-r-3xl sm:rounded-bl-none'>
 			<div className='text-white flex flex-col p-10 items-center'>
 				<Image
 					priority
@@ -57,6 +57,13 @@ const Sidebar = ({ data }) => {
 							aria-label={"github link"}
 						>
 							<Github />
+						</a>
+						<a
+							className='icons-article'
+							href={contactLinks?.[5]}
+							aria-label={"zenn link"}
+						>
+							<Zenn />
 						</a>
 						
 					</div>
