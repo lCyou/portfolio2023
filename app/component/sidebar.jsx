@@ -4,21 +4,34 @@ import React from "react";
 
 import { Envelope, Twitter, Linkedin, Github, Location, Zenn } from "./icons/";
 
+const Avatar = () => {
+	return (
+		<Image
+            priority
+            width={300}
+            height={300}
+            className='rounded-full h-full mb-5 mt-5'
+            src='/images/myicon.jpg'
+            aria-label='myicon.jpg'
+        />
+	);
+};
+
 const Sidebar = ({ data }) => {
 	const { name, role, education, contactLinks } = data;
-
 	return (
 		<div className='z-50 bg-midnight-blue flex flex-col  content-between w-full h-auto rounded-br-3xl rounded-bl-3xl sm:h-screen sm:justify-around sm:w-1/3 sm:fixed sm:rounded-r-3xl sm:rounded-bl-none'>
 			<div className='text-white flex flex-col p-10 items-center'>
-				<Image
+				<Avatar />
+				{/* <Image
 					priority
 					width={300}
 					height={300}
 					className='rounded-full h-full mb-5 mt-5'
 					src='/images/myicon.jpg'
-					alt='myicon.jpg'
+					// alt='myicon.jpg'
 					aria-label='myicon.jpg'
-				/>
+				/> */}
 				<h1 className='text-dark-yellow mb-0'>{name}</h1>
 				<h2 className='mb-0'>{role[0]}</h2>
                 <h2 className='mb-3'>{role[1]}</h2>

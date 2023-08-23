@@ -30,95 +30,95 @@ export const skills = {
     {
       name: "next",
       icon: <i class="devicon-nextjs-plain"></i>,
-      description: "Next.jsを使ったWebアプリケーションの開発経験があります。",
+      description: "手軽でよく使います",
     },
     {
       name: "react",
       icon: <i className="devicon-react-original "></i>,
-      description: "Reactを使ったWebアプリケーションの開発経験があります。",
+      description: "個人でのフロントエンド開発でほぼ使用しています",
     },
     {
       name: "css",
       icon: <i className="devicon-css3-plain "></i>,
-      description: "CSSを使ったWebアプリケーションの開発経験があります。",
+      description: "一応かけます（）",
     },
     {
       name: "html",
       icon: <i className="devicon-html5-plain"></i>,
-      description: "HTMLを使ったWebアプリケーションの開発経験があります。",
+      description: "Webアプリ作成のため勉強しています",
     },
     {
       name: "tailwind",
       icon: <i className="devicon-tailwindcss-plain"></i>,
       description:
-        "Tailwind CSSを使ったWebアプリケーションの開発経験があります。",
+        "主に個人開発で触っています",
     },
     {
       name: "js",
       icon: <i className="devicon-javascript-plain "></i>,
       description:
-        "JavaScriptを使ったWebアプリケーションの開発経験があります。",
+        "簡単なWebアプリの開発や学校の授業などで使用しています。",
     },
     {
       name: "ts",
       icon: <i className="devicon-typescript-plain "></i>,
       description:
-        "TypeScriptを使ったWebアプリケーションの開発経験があります。",
+        "フロント・バックエンド両方で使用経験があります",
     },
     {
       name: "python",
       icon: <i className="devicon-python-plain"></i>,
-      description: "Pythonを使ったWebアプリケーションの開発経験があります。",
+      description: "主にflaskやFastAPI,機械学習の基礎勉強で使いました",
     },
     {
       name: "java",
       icon: <i class="devicon-java-plain"></i>,
-      description: "Javaを使ったWebアプリケーションの開発経験があります。",
+      description: "JavaでOODやデザインパターンを学びました",
     },
     {
       name: "c",
       icon: <i className="devicon-c-plain "></i>,
-      description: "Cを使ったWebアプリケーションの開発経験があります。",
+      description: "ハードなど低レイヤの勉強に使用しました",
     },
     {
       name: "c++",
       icon: <i className="devicon-cplusplus-plain"></i>,
-      description: "C++を使ったWebアプリケーションの開発経験があります。",
+      description: "アルゴリズムの勉強に使用しています",
     },
     {
       name: "c#",
       icon: <i className="devicon-csharp-plain"></i>,
-      description: "C#を使ったWebアプリケーションの開発経験があります。",
+      description: "主にUnityを用いたゲーム，シュミレーションを作成するのに使います",
     },
     {
       name: "sqlite",
       icon: <i class="devicon-sqlite-plain"></i>,
-      description: "SQLiteを使ったWebアプリケーションの開発経験があります。",
+      description: "軽量なデータベースとして使用しています",
     },
     {
       name: "git",
       icon: <i className="devicon-git-plain"></i>,
-      description: "Gitを使ったWebアプリケーションの開発経験があります。",
+      description: "ソース管理で使用しています",
     },
     {
       name: "github",
       icon: <i class="devicon-github-original"></i>,
-      description: "GitHubを使ったWebアプリケーションの開発経験があります。",
+      description: "ソースコードの管理や公開に使用しています",
     },
     {
       name: "docker",
       icon: <i className="devicon-docker-plain "></i>,
-      description: "Dockerを使ったWebアプリケーションの開発経験があります。",
+      description: "簡単な環境構築がしたい時に使用しています",
     },
     {
       name: "heroku",
       icon: <i className="devicon-heroku-original"></i>,
-      description: "Herokuを使ったWebアプリケーションの開発経験があります。",
+      description: "DiscordBotなどホスティングに使用しています",
     },
     {
       name: "node",
       icon: <i className="devicon-nodejs-plain"></i>,
-      description: "Node.jsを使ったWebアプリケーションの開発経験があります。",
+      description: "APIサーバーやNode-redで使用しています",
     },
     {
       name: "express",
@@ -128,17 +128,17 @@ export const skills = {
     {
       name: "flask",
       icon: <i class="devicon-flask-original"></i>,
-      description: "Flaskを使ったWebアプリケーションの開発経験があります。",
+      description: "Webアプリケーションの基礎構造を勉強しました",
     },
     {
       name: "unity",
       icon: <i class="devicon-unity-original"></i>,
-      description: "Unityを使ったWebアプリケーションの開発経験があります。",
+      description: "Unityを使ったゲーム開発の経験があります",
     },
     {
       name: "IFTTT",
       icon: <i class="devicon-ifttt-plain"></i>,
-      description: "IFTTTを使ったWebアプリケーションの開発経験があります。",
+      description: "IFTTTを使ってリマインダーや家電の操作の自動化にチャレンジしています",
     },
     {
       name: "nginx",
@@ -153,7 +153,12 @@ export const skills = {
     {
       name: "flutter",
       icon: <i class="devicon-flutter-plain"></i>,
-      description: "Flutterを使ったWebアプリケーションの開発経験があります。",
+      description: "ネイティブアプリの作成に使用します",
+    },
+    {
+      name: "Go",
+      icon: <i class="devicon-go-original-wordmark"></i>,
+      description: "CLIツールやAPIサーバの開発のため勉強してます",
     },
   ],
 };
