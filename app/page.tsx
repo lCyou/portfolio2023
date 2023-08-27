@@ -4,7 +4,6 @@ import { aboutMe, skills, workData } from "../data/page-data";
 import AboutMe from "./component/about-me";
 import MySkill from "./component/my-skill";
 import Experience from "./component/experience";
-import { Skeleton } from "@nextui-org/react";
 
 const page = memo(() => {
   return (
