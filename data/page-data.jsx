@@ -215,5 +215,33 @@ export const workData = {
       event: "GMO DevSecOpsthon2023",
       role: "インターネットインフラについて勉強",
     },
+    {
+      id: 8,
+      status: "work",
+      date: "2023.8",
+      event: "ビッグローブ株式会社 インターン",
+      role: "AWSを使ったインフラの設計・構築",
+    },
+    {
+      id: 9,
+      status: "work",
+      date: "2023.9",
+      event: "アスクル株式会社 インターン",
+      role: "サーバーサイドエンジニアとして参加。CI/CDのコスト削減に取り組む。",
+    },
+    {
+      id: 10,
+      status: "work",
+      date: "2023.9",
+      event: "Sansan株式会社 1DayTypeScriptインターン",
+      role: "クローリングしたデータの正規化",
+    },
+    {
+      id: 11,
+      status: "work",
+      date: "2023.11",
+      event: "レコチョク インターン",
+      role: "ユーザー目線からのサービス企画を学ぶ",
+    },
   ],
 };
