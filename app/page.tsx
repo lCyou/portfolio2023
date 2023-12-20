@@ -19,6 +19,7 @@ const page = memo(() => {
           <Experience data={workData} />
         </div>
         </Suspense>
+      
       </div>
   );
 });
