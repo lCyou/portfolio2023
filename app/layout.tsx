@@ -1,6 +1,7 @@
 import "./global.css";
 
 import Head from 'next/head'
+import Chatbot from "./component/chatbot";
 import BackGround from "./background";
 import Sidebar from "./component/sidebar";
 import { personalData } from "../data/page-data";
@@ -28,6 +29,7 @@ export default function RootLayout({
 					</main>
 					<JumpButton />
 				</div>
+				<Chatbot />
 			</body>
 		</html>
 	);
